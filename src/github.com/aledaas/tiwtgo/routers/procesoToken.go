@@ -21,7 +21,7 @@ func ProcesoToken(tk string) (*models.Claim, bool, string, error) {
 	claims := &models.Claim{}
 
 	splitToken := strings.Split(tk, "Bearer")
-	if len(splitToken) < 2 {
+	if len(splitToken) != 2 {
 		return claims, false, string(""), errors.New("formato de tocken invalido")
 	}
 	tk = strings.TrimSpace(splitToken[1])
@@ -29,10 +29,10 @@ func ProcesoToken(tk string) (*models.Claim, bool, string, error) {
 		return miClave, nil
 	})
 	if err == nil {
-		_, encontrado, _ := bd.ChequeoYaExisteUsuario(claims.Email)
+		_, encontrado, ID := bd.ChequeoYaExisteUsuario(claims.Email)
 		if encontrado == true {
 			Email = claims.Email
-			IDUsuario = claims.ID.Hex()
+			IDUsuario = ID
 		}
 		return claims, encontrado, IDUsuario, nil
 	}
