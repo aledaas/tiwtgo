@@ -8,8 +8,8 @@ import (
 	"github.com/aledaas/tiwtgo/bd"
 )
 
-/*LeoTweetsRelacion lee los tweets*/
-func LeoTweetsRelacion(w http.ResponseWriter, r *http.Request) {
+/*LeoTweetsSeguidores lee los tweets*/
+func LeoTweetsSeguidores(w http.ResponseWriter, r *http.Request) {
 	if len(r.URL.Query().Get("pagina")) < 1 {
 		http.Error(w, "Debe enviar el parametro Página", http.StatusBadRequest)
 		return
