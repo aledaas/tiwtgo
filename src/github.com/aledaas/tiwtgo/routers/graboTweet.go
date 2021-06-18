@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aledaas/tiwtgo/bd"
-	"github.com/aledaas/tiwtgo/models"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/bd"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/models"
 )
 
 /*GraboTweet graba el tweet en la BD*/

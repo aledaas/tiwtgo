@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aledaas/tiwtgo/bd"
-	"github.com/aledaas/tiwtgo/jwt"
-	"github.com/aledaas/tiwtgo/models"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/bd"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/jwt"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/models"
 )
 
 /*Login realiza el login */

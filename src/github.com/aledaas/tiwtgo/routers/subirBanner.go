@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aledaas/tiwtgo/bd"
-	"github.com/aledaas/tiwtgo/models"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/bd"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/models"
 )
 
 /*SubirBanner se encarga de subir el avatar*/

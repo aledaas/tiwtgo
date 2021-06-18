@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/aledaas/tiwtgo/middlew"
-	"github.com/aledaas/tiwtgo/routers"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/middlew"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/routers"
 
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"

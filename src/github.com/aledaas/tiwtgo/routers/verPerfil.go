@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/aledaas/tiwtgo/bd"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/bd"
 )
 
 /*VerPerfil permite extraer los valores del Perfil*/

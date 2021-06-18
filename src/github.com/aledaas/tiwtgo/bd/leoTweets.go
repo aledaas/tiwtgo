@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/aledaas/tiwtgo/models"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

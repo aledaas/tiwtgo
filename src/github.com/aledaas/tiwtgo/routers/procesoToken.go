@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/aledaas/tiwtgo/bd"
-	"github.com/aledaas/tiwtgo/models"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/bd"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/models"
 	jwt "github.com/dgrijalva/jwt-go"
 )
 

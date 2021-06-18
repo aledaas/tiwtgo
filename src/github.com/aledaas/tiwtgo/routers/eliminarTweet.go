@@ -3,7 +3,7 @@ package routers
 import (
 	"net/http"
 
-	"github.com/aledaas/tiwtgo/bd"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/bd"
 )
 
 /*EliminarTweet Elimina un tweet */

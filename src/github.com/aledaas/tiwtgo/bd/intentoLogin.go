@@ -1,7 +1,7 @@
 package bd
 
 import (
-	"github.com/aledaas/tiwtgo/models"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/models"
 	"golang.org/x/crypto/bcrypt"
 )
 

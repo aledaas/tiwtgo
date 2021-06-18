@@ -3,7 +3,7 @@ package middlew
 import (
 	"net/http"
 
-	"github.com/aledaas/tiwtgo/bd"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/bd"
 )
 
 /*ChequeoBD es el middleware que me permite conocer el estado de BD */

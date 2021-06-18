@@ -3,8 +3,8 @@ package routers
 import (
 	"net/http"
 
-	"github.com/aledaas/tiwtgo/bd"
-	"github.com/aledaas/tiwtgo/models"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/bd"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/models"
 )
 
 /*BajaRelacion Registra la relacion entre usuarios*/

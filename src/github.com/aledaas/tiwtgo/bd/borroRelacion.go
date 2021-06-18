@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/aledaas/tiwtgo/models"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/models"
 )
 
 /*BorroRelacion Ejecuta el borrado de una relacion */

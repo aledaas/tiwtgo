@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/aledaas/tiwtgo/models"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/models"
 )
 
 /*InsertoRelacion Ejecuta la insercion de una relacion */

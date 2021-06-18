@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/aledaas/tiwtgo/bd"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/bd"
 )
 
 /*ObtenerBanner obtiene el banner*/

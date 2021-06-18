@@ -3,7 +3,7 @@ package middlew
 import (
 	"net/http"
 
-	"github.com/aledaas/tiwtgo/routers"
+	"github.com/aledaas/tiwtgo/src/github.com/aledaas/tiwtgo/routers"
 )
 
 /*ValidoJWT permite validar el JWT que nos viene en la petición*/
