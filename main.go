@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if bd.ChequeoConnection() == false {
-		log.Fatal("son conexion a la BD")
+		log.Fatal("sin conexion a la BD")
 		return
 	}
 	handlers.Manejadores()
